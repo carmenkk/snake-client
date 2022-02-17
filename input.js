@@ -28,6 +28,15 @@ const setupInput = (conn) => {
     if (key ==="d") {
       connection.write("Move: right")
     }
+    if (key === "1") {
+      connection.write("Say: SSS")
+    }
+    if (key === "2") {
+      connection.write("Say: Bye")
+    }
+    if (key === "3") {
+      connection.write("Say:GoodLuck")
+    }
     
   }
   setupInput();
